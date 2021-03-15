@@ -20,17 +20,17 @@
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Name</th>
-                                <th scope="col">Action</th>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach($listCategories as $category){ ?>
                             <tr>
-                                <th scope="row">
+                                <td>
                                     <?php echo $category->id; ?>
-                                </th>
+                                </td>
                                 <td>
                                     <?php echo $category->name; ?>
                                 </td>
